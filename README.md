@@ -18,8 +18,8 @@ End-to-end API QA automation tests using Playwright.
 ```bash
 npx playwright test
 
-📊 Example tests
-GET users list
-GET single user
-POST create post
-GET unknown endpoint (404)
+ ## 📊Example tests
+- GET /users → returns list of users
+- GET /users/:id → returns single user
+- POST /posts → creates new post
+- GET /wrong-endpoint → returns 404 error
