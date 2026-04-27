@@ -18,6 +18,7 @@ End-to-end API QA automation tests using Playwright.
 bash
 npx playwright test
 ``
+
 ## 📊Example tests
 - GET /users → returns list of users
 - GET /users/:id → returns single user
